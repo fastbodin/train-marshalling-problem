@@ -4,7 +4,7 @@ This is an implementation of the algorithm in https://www.sciencedirect.com/scie
 The basic idea of the problem is as follows. You have train cars, labelled 1 through n, on a train track:
 
 
-- - - - - - - - n - (n-1) - ... - 2 - 1 - - - - - (this is my attempt at a train track with cars)
+- n - (n-1) - . . . - 2 - 1 - (this is my attempt at a train track with cars)
 
 
 Each train car has a desired destination. The question is: How many additional tracks do you need to split from the main track to organize the cars such that when you join them back together again onto one track the train is partitioned into cars by their desired destination.
