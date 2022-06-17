@@ -1,6 +1,6 @@
 This is an implementation of the algorithm in https://www.sciencedirect.com/science/article/pii/S0166218X16304504. At the top of the file you can input your DTMP instance. Running the files determines the minimum number of rails and produces (via a backtrack) all possible solutions.
 
-The basic idea of the problem is as follows. You have train cars, labelled 1 through n, on a train track. Each train car has a desired destination. The question is: How many additional tracks do you need to split from the main track to organize the cars such that when you join them back together again onto one track the train is partitioned into cars by their desired destination.
+The basic idea of the problem is as follows. You have train cars, labelled 1 through n, on a train track. Each train car has a desired destination. The question is: How many additional tracks do you need to split from the main track to organize the cars such that when you join them back together again onto one track the train is partitioned into cars by their desired destination?
 
 The solution involves
 
