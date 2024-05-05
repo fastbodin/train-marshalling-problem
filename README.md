@@ -20,6 +20,6 @@ When using the script, you can define your instance of DTMP by inputting the fol
 
 - des_dict = {1: [cars that go to destination 1], 2: [cars that go to destination 2], ..., t: [cars that go to destination t]}
 
-When run, the script will report the minimum number of rails needed for the given instance of DTMP. A backtracking algorithm is then used to find valid solutions (once one is known to exist). In its current state, the script reports all possible assignments of cars to rails with give valid minimum solutions.
+When run, the script will report the minimum number of rails needed for the given instance of DTMP. A backtracking algorithm is then used to find valid solutions (once one is known to exist). In its current state, the script reports all possible assignments of cars to rails with give valid minimum solutions. 
 
 
